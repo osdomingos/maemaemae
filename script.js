@@ -195,11 +195,6 @@ const falasDasMaes = [
     "E, sejam eles quem forem, tenho direito a vingar-me;",
     "Mas o meu coração amaldiçoa todo o tipo de armas."
   ];
-  
-
-const corpo = document.body
-const titulo = document.getElementById('titulo')
-const sobre = document.getElementById('sobre')
 
 function mudar_mensagem() {
     const mensagens = document.getElementById('mensagens')
@@ -207,3 +202,4 @@ function mudar_mensagem() {
     mensagens.innerHTML = `<h1>${falasDasMaes[aleatorio]}</h1>`
 }
 
+console.log(falasDasMaes.length)
