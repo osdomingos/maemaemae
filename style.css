@@ -1,3 +1,26 @@
-body {
+* {
+    margin: 0 auto;
     cursor: pointer;
+}
+
+body {
+    background-color: #E8DED1;
+}
+
+#titulo {
+    position: fixed;
+    top: 0;
+}
+
+#sobre {
+    position: fixed;
+    bottom: 0;
+}
+
+#titulo, #sobre {
+    color: #A0816C;
+    text-align: center;
+    left: 50%; /* Alinhar à esquerda */
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
