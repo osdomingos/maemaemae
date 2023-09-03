@@ -1,6 +1,5 @@
 uma mãe é uma mãe uma mãe, uma mãe uma mão, um mamão um mamon
 =============================================================
-___
 
 ## Descrição
 
@@ -22,4 +21,4 @@ ___
 
 ___
 #### Licença
-Osmar Domingos. Diretos reservados.
+_Osmar Domingos. Diretos reservados._
