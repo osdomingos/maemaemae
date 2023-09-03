@@ -1,10 +1,43 @@
 * {
     margin: 0 auto;
-    cursor: pointer;
 }
+
+/* body, html {
+    display: flex;
+} */
 
 body {
     background-color: #E8DED1;
+}
+
+#caveira {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+img {
+    max-width: 4rem;
+}
+
+p {
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 10px;
+    font-style: italic;
+    color: #A0816C;
+}
+
+.container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    max-width: 80%;
+    color: #7b6353;
 }
 
 #titulo {
@@ -20,7 +53,11 @@ body {
 #titulo, #sobre {
     color: #A0816C;
     text-align: center;
-    left: 50%; /* Alinhar à esquerda */
+    left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+
+#titulo, #sobre {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
