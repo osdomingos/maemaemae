@@ -194,10 +194,26 @@ const falasDasMaes = [
     "Mas o meu coração amaldiçoa todo o tipo de armas."
   ];
 
+let assinatura = document.getElementById('assinatura')
+assinatura.style.display = 'none'
+console.log(assinatura)
+let skull = document.getElementById('skull')
+
 function mudar_mensagem() {
     const mensagens = document.getElementById('mensagens')
     let aleatorio = Math.floor(Math.random() * falasDasMaes.length)
     mensagens.innerHTML = `<h1>${falasDasMaes[aleatorio]}</h1>`
 }
+
+function mostrar_rodape() {
+  assinatura.style.display = 'block'
+}
+
+function esconder_rodape() {
+  assinatura.style.display = 'none'
+}
+
+skull.onmouseover = mostrar_rodape
+skull.onmouseout = esconder_rodape
 
 console.log(falasDasMaes.length)
